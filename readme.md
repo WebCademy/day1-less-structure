@@ -17,6 +17,6 @@
 #### Запустить проект
 
 ```
-git clone 
+git clone https://github.com/WebCademy/day1-less-structure.git
 ```
 
