@@ -1,0 +1,95 @@
+@import "http://fonts.fontstorage.com/import/opensans.css";
+@import "http://fonts.fontstorage.com/import/bitter.css";
+@import "http://fonts.fontstorage.com/import/notoserif.css";
+@import "http://fonts.fontstorage.com/import/sportsworld.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+/*
+	Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic
+	Bitter, 400, 400 italic, 700, 700 italic
+	Noto Serif, 400, 400 italic, 700, 700 italic
+	Sports World, 400
+*/
+html {
+  background-color: #EEE;
+  padding: 30px;
+  font-family: 'Open Sans', Arial, Sans-Serif;
+}
+a {
+  color: #45668e;
+}
+.section {
+  padding: 35px;
+  background-color: #FFF;
+  margin-bottom: 35px;
+}
+.title-1 {
+  font-size: 32px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-family: 'Noto Serif';
+}
+.title-2 {
+  font-size: 25.6px;
+  margin-top: 12.8px;
+  margin-bottom: 6.4px;
+  font-family: 'Noto Serif';
+}
+.title-3 {
+  font-size: 20.48px;
+  margin-top: 10.24px;
+  margin-bottom: 5.12px;
+  font-family: 'Noto Serif';
+}
+.title-4 {
+  font-size: 16.384px;
+  margin-top: 8.192px;
+  margin-bottom: 4.096px;
+  font-family: 'Noto Serif';
+}
+.title-5 {
+  font-size: 13.1072px;
+  margin-top: 6.5536px;
+  margin-bottom: 3.2768px;
+  font-family: 'Noto Serif';
+}
+.title-6 {
+  font-size: 10.48576px;
+  margin-top: 5.24288px;
+  margin-bottom: 2.62144px;
+  font-family: 'Noto Serif';
+}
+.buttons * {
+  margin-right: 20px;
+}
+.button-outline {
+  background-color: transparent;
+  border: 2px solid #45668e;
+  color: #45668e;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.button-solid {
+  background-color: #45668e;
+  color: #FFF;
+  border: none;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.icons {
+  font-size: 36px;
+}
+.icons .fa {
+  margin-right: 20px;
+}
+.card {
+  background-color: #45668e;
+  color: #FFF;
+  border: none;
+  width: 300px;
+  padding: 15px 20px;
+}

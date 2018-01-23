@@ -1,0 +1,12 @@
+.card {
+	.transition;
+	background-color: @card-color;
+	color: #FFF;
+	border: none;
+	width: 300px;
+	padding: 15px 20px;
+	
+	&:hover, &:focus {
+		background-color: saturate(@card-color, 90%);
+	}
+}

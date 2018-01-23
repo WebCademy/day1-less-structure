@@ -1,0 +1,28 @@
+html {
+	background-color: #EEE;
+	padding: 30px;
+	font-family: 'Open Sans', Arial, Sans-Serif;
+}
+
+body {
+	// padding: 15px 30px;
+}
+
+a {
+	color: @brand-color;
+	.transition;
+	
+	&:hover, &:focus {
+		color: lighten(@brand-color, 10%);
+	}
+
+	&:active {
+		color: saturate(@brand-color, 30%);
+	}
+}
+
+.section {
+	padding: 35px;
+	background-color: #FFF;
+	margin-bottom: 35px;
+}

@@ -1,0 +1,43 @@
+.buttons * {
+	margin-right: 20px;
+}
+
+.button-outline {
+	.transition;
+	background-color: transparent;
+	border: 2px solid @button-color;
+	color: @button-color;
+	border-radius: @border-radius;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	
+	&:hover, &:focus {
+		border-color: lighten(@button-color, 10%);
+		color: lighten(@button-color, 10%);
+	}
+
+	&:active {
+		border-color: saturate(@button-color, 30%);
+		color: saturate(@button-color, 30%);
+	}
+}
+
+.button-solid {
+	.transition;
+	background-color: @button-color;
+	color: #FFF;
+	border: none;
+	border-radius: @border-radius;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	
+	&:hover, &:focus {
+		background-color: lighten(@button-color, 10%);
+	}
+
+	&:active {
+		background-color: saturate(@button-color, 30%);
+	}
+}
